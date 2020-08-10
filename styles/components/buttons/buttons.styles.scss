@@ -1,0 +1,38 @@
+.c-btn {
+  color: $white;
+  font-family: "FuturaPT-Medium";
+  font-size: 22px;
+  width: 180px;
+  height: 44px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  &:focus {
+    outline:0;
+  }
+  &:hover, :active {
+    background-color: $dark-red;
+    border: none;
+  }
+  &:disabled {
+    background-color: $grey;
+  }
+  &--primary {
+    background-color: $primary;
+  }
+  &--white {
+    background-color: $white;
+    color: $black;
+    &:hover, :active {
+      background-color: $black;
+      color: $white;
+    }
+  }
+  &--black {
+    background-color: $black;
+    &:hover, :active {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}

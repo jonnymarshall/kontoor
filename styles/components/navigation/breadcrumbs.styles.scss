@@ -1,0 +1,16 @@
+.c-breadcrumbs {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.4rem;
+  > * {
+    display: inline;
+  }
+  &__visited {
+    color: $lightblue;
+    margin-right: 0.2rem;
+  }
+  &__divider {
+    margin-right: 0.2rem;
+  }
+}
