@@ -1,0 +1,22 @@
+// .c-subnav {
+//   & > * {
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+//   &__main {
+//     background-color: $primary;
+//   }
+//   &__btn {
+//     border: 1px solid $white;
+//   }
+// }
+
+.c-subnav {
+  background-color: $primary;
+  &__btn {
+    // border: 1px solid $white;
+    width: 100%;
+  }
+}
