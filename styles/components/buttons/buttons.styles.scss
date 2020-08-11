@@ -2,11 +2,12 @@
   color: $white;
   font-family: "FuturaPT-Medium";
   font-size: 22px;
-  width: 180px;
+  min-width: 180px;
   height: 44px;
   border: none;
   padding: 10px;
   cursor: pointer;
+  text-transform: uppercase;
   &:focus {
     outline:0;
   }
