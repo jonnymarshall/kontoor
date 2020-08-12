@@ -7,7 +7,7 @@ export default function Banners() {
         <div className="c-banner">
           <div class="c-banner__text c-banner--white c-banner__text">
             <div class="content">
-              <h3>Header</h3>
+              <h2>Header</h2>
               <p>DescriptLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ion</p>
               <button className="c-btn c-btn--primary">button</button>
             </div>
